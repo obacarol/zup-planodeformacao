@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS records;
+
+DROP TABLE IF EXISTS account;
+
+DROP SEQUENCE IF EXISTS account_id_seq1;
+
+DROP SEQUENCE IF EXISTS records_id_seq1;
