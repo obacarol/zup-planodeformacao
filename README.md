@@ -1,11 +1,19 @@
-Atualização do projeto "plano de formação" com as seguintes tarefas:
+Título: Projeto aplicado 
 
-- Criar uma docker compose que sobe o banco de dados;
-- Trocar o banco para Postgres;
-- Versionar o banco usando migration;
-- Trocar as resposta do projeto de HTML para usar o padrão rest;
-- Adicionar as seguintes regras:
-	  --Saldo não pode ficar negativo.
-  	--Transferência apenas para clientes ativos.
-- Adicionar testes unitários pelo menos para as regras acima.
-- Criar uma collection usando POSTMAN para testar o projeto.
+Tempo: 2 Semanas.
+
+Descrição: Desafio de programação - Nível baby :D
+
+Objetivo: Criar um sistema que simule um Banco
+
+Descrição: O sistema deve permitir cadastrar cliente. Após o cliente cadastrado deve ser possível realizar as seguintes operações: Depósito, saque, transferência, saldo e extrato.
+
+- HELP: CLIENTE Id da conta Nome CPF Data criação
+
+- CONTA ID Data criação Saldo
+
+- TRANSFERÊNCIA id da conta de origem id da conta de destino Id da transação valor a ser transferido data/hora da transação
+
+- EXTRATO Deve constar toda movimentação da conta de um cliente
+
+- SALDO Deve constar o saldo atual da conta do cliente
